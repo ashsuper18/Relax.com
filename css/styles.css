@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat',
+        sans-serif;
+
+}
+
+h3 {
+    font-weight: 800;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.coloured-section {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.white-section {
+    background-color: #EEEEEE;
+
+}
+
+.container-fluid {
+    padding: 7% 14%;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.2;
+    /* Check line height */
+}
+
+.section-heading {
+    font-weight: 600;
+}
+
+/* Title section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.title-image {
+    width: 80%;
+    height: 100%;
+    padding: 3% 2%;
+    transform: rotate(90deg);
+    position: relative;
+    left: 8%;
+}
+
+
+/* navbar */
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.nav-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Buttons */
+.timebutton {
+    margin: 5% 3% 5% 0;
+}
+
+/* features-box */
+#features {
+    position: relative;
+    /* z-index: -1; */
+}
+
+.feature-title {
+    font-weight: 800;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icons{
+    color: #00ADB5;
+    margin-bottom: 1rem;
+}
+
+.icons:hover{
+    color:#393E46;
+}
+
+/* testimonials-section */
+
+
+.dog-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.review {
+    color: #EEEEEE;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 13%;
+    margin: 20px 20px 15px;
+
+}
+
+
+/* pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-weight: 600;
+}
+
+/* Footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+/* For mobile responsiveness */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(90deg);
+        width: 60%;
+        position: static;
+
+    }
+}
